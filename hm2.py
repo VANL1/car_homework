@@ -51,12 +51,12 @@ body1 = body(100) #Кузов массой 100
 car1 = car("Toyoto", engine1, tank1, brakes1, body1) #Машина №1 марки Toyoto
 car2 = car("BMW", engine2, tank1, brakes1, body1) #Машина №2 марки BMW
 
-print(car1.name)
-print(car1.mass)
-print(car1.max_course)
-print(car1.brakes_course)
-print(">>>>>>>>>>>>>>>>>>")
-print(car2.name)
-print(car2.mass)
-print(car2.max_course)
-print(car2.brakes_course)
+print('Марка:', car1.name)
+print("Масса:", car1.mass)
+print("Макс запас хода:", car1.max_course)
+print("Тормозной путь:", car1.brakes_course)
+print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+print('Марка:', car2.name)
+print("Масса:", car2.mass)
+print("Макс запас хода:", car2.max_course)
+print("Тормозной путь:", car2.brakes_course)

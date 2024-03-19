@@ -39,14 +39,20 @@ class car:
         self.brakes_course=(self.mass/brakes.effect)*100
 
 
-
 engine1 = engine(100, 200, 10)
+engine2 = engine(100, 300, 10)
 tank1 = tank(100, 50)
 brakes1 = brakes(100, 100)
 body1 = body(100)
 car1 = car("Toyoto", engine1, tank1, brakes1, body1)
+car2 = car("Toyoto", engine2, tank1, brakes1, body1)
 
 print(car1.name)
 print(car1.mass)
 print(car1.max_course)
 print(car1.brakes_course)
+print(">>>>>>>>>>>>>>>>>>")
+print(car2.name)
+print(car2.mass)
+print(car2.max_course)
+print(car2.brakes_course)

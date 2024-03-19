@@ -36,7 +36,7 @@ class car:
         self.brakes = brakes
         self.body = body
         self.max_course=tank.volume*engine.speed*engine.fuel_consumption
-        self.brakes_course=self.mass*brakes.effect
+        self.brakes_course=(self.mass/brakes.effect)*100
 
 
 

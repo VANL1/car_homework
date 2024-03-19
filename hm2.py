@@ -47,6 +47,6 @@ body1 = body(100)
 car1 = car("Toyoto", engine1, tank1, brakes1, body1)
 
 print(car1.name)
-print(car1.mass_sum())
+print(car1.mass)
 print(car1.max_course)
 print(car1.brakes_course)

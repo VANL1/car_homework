@@ -35,9 +35,9 @@ class car:
         self.tank = tank
         self.brakes = brakes
         self.body = body
-        self.max_course=tank.volume*engine.speed*engine.fuel_consumption
+        self.max_course=(tank.volume*engine.speed)/engine.fuel_consumption
         self.brakes_course=(self.mass/brakes.effect)*100
-
+        
 
 engine1 = engine(100, 200, 10)
 engine2 = engine(100, 300, 10)
